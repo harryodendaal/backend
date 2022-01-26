@@ -1,0 +1,8064 @@
+[
+  {
+    "1INCH/USDT": {
+      "active": true,
+      "base": "1INCH",
+      "future": false,
+      "futures": false,
+      "id": "1INCHUSDT",
+      "info": {
+        "alias": "1INCHUSDT",
+        "base_currency": "1INCH",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "10000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "1INCHUSDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 10000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "1INCH/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "AAVE/USDT": {
+      "active": true,
+      "base": "AAVE",
+      "future": false,
+      "futures": false,
+      "id": "AAVEUSDT",
+      "info": {
+        "alias": "AAVEUSDT",
+        "base_currency": "AAVE",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "500",
+          "min_trading_qty": "0.01",
+          "qty_step": "0.01"
+        },
+        "maker_fee": "-0.00025",
+        "name": "AAVEUSDT",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 500.0,
+          "min": 0.01
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.01,
+        "price": 0.05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "AAVE/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ADA/USDT": {
+      "active": true,
+      "base": "ADA",
+      "future": false,
+      "futures": false,
+      "id": "ADAUSDT",
+      "info": {
+        "alias": "ADAUSDT",
+        "base_currency": "ADA",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "240000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ADAUSDT",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 240000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.0001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "ADA/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ALGO/USDT": {
+      "active": true,
+      "base": "ALGO",
+      "future": false,
+      "futures": false,
+      "id": "ALGOUSDT",
+      "info": {
+        "alias": "ALGOUSDT",
+        "base_currency": "ALGO",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "40000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ALGOUSDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 40000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "ALGO/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ALICE/USDT": {
+      "active": true,
+      "base": "ALICE",
+      "future": false,
+      "futures": false,
+      "id": "ALICEUSDT",
+      "info": {
+        "alias": "ALICEUSDT",
+        "base_currency": "ALICE",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "5000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ALICEUSDT",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 5000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "ALICE/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ANKR/USDT": {
+      "active": true,
+      "base": "ANKR",
+      "future": false,
+      "futures": false,
+      "id": "ANKRUSDT",
+      "info": {
+        "alias": "ANKRUSDT",
+        "base_currency": "ANKR",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "500000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ANKRUSDT",
+        "price_filter": {
+          "max_price": "99.9999",
+          "min_price": "0.00005",
+          "tick_size": "0.00005"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 500000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99.9999,
+          "min": 5e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 5e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "ANKR/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ANT/USDT": {
+      "active": true,
+      "base": "ANT",
+      "future": false,
+      "futures": false,
+      "id": "ANTUSDT",
+      "info": {
+        "alias": "ANTUSDT",
+        "base_currency": "ANT",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ANTUSDT",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 1000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "ANT/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "AR/USDT": {
+      "active": true,
+      "base": "AR",
+      "future": false,
+      "futures": false,
+      "id": "ARUSDT",
+      "info": {
+        "alias": "ARUSDT",
+        "base_currency": "AR",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "400",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ARUSDT",
+        "price_filter": {
+          "max_price": "19999.98",
+          "min_price": "0.01",
+          "tick_size": "0.01"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 400.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 19999.98,
+          "min": 0.01
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.01
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "AR/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ATOM/USDT": {
+      "active": true,
+      "base": "ATOM",
+      "future": false,
+      "futures": false,
+      "id": "ATOMUSDT",
+      "info": {
+        "alias": "ATOMUSDT",
+        "base_currency": "ATOM",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "5000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ATOMUSDT",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 5000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "ATOM/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "AUDIO/USDT": {
+      "active": true,
+      "base": "AUDIO",
+      "future": false,
+      "futures": false,
+      "id": "AUDIOUSDT",
+      "info": {
+        "alias": "AUDIOUSDT",
+        "base_currency": "AUDIO",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "10000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "AUDIOUSDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 10000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "AUDIO/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "AVAX/USDT": {
+      "active": true,
+      "base": "AVAX",
+      "future": false,
+      "futures": false,
+      "id": "AVAXUSDT",
+      "info": {
+        "alias": "AVAXUSDT",
+        "base_currency": "AVAX",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "2500",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "AVAXUSDT",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 2500.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "AVAX/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "AXS/USDT": {
+      "active": true,
+      "base": "AXS",
+      "future": false,
+      "futures": false,
+      "id": "AXSUSDT",
+      "info": {
+        "alias": "AXSUSDT",
+        "base_currency": "AXS",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "5000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "AXSUSDT",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 5000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "AXS/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "BAT/USDT": {
+      "active": true,
+      "base": "BAT",
+      "future": false,
+      "futures": false,
+      "id": "BATUSDT",
+      "info": {
+        "alias": "BATUSDT",
+        "base_currency": "BAT",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "80000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "BATUSDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 80000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "BAT/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "BCH/USDT": {
+      "active": true,
+      "base": "BCH",
+      "future": false,
+      "futures": false,
+      "id": "BCHUSDT",
+      "info": {
+        "alias": "BCHUSDT",
+        "base_currency": "BCH",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "600",
+          "min_trading_qty": "0.01",
+          "qty_step": "0.01"
+        },
+        "maker_fee": "-0.00025",
+        "name": "BCHUSDT",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 600.0,
+          "min": 0.01
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.01,
+        "price": 0.05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "BCH/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "BICO/USDT": {
+      "active": true,
+      "base": "BICO",
+      "future": false,
+      "futures": false,
+      "id": "BICOUSDT",
+      "info": {
+        "alias": "BICOUSDT",
+        "base_currency": "BICO",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "700",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "BICOUSDT",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 700.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "BICO/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "BIT/USD": {
+      "active": true,
+      "base": "BIT",
+      "future": false,
+      "futures": false,
+      "id": "BITUSD",
+      "info": {
+        "alias": "BITUSD",
+        "base_currency": "BIT",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "250000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "BITUSD",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USD",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": true,
+      "limits": {
+        "amount": {
+          "max": 250000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": false,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.001
+      },
+      "quote": "USD",
+      "spot": false,
+      "swap": true,
+      "symbol": "BIT/USD",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "BIT/USDT": {
+      "active": true,
+      "base": "BIT",
+      "future": false,
+      "futures": false,
+      "id": "BITUSDT",
+      "info": {
+        "alias": "BITUSDT",
+        "base_currency": "BIT",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "100000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "BITUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 100000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "BIT/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "BNB/USDT": {
+      "active": true,
+      "base": "BNB",
+      "future": false,
+      "futures": false,
+      "id": "BNBUSDT",
+      "info": {
+        "alias": "BNBUSDT",
+        "base_currency": "BNB",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1500",
+          "min_trading_qty": "0.01",
+          "qty_step": "0.01"
+        },
+        "maker_fee": "-0.00025",
+        "name": "BNBUSDT",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 1500.0,
+          "min": 0.01
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.01,
+        "price": 0.05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "BNB/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "BSV/USDT": {
+      "active": true,
+      "base": "BSV",
+      "future": false,
+      "futures": false,
+      "id": "BSVUSDT",
+      "info": {
+        "alias": "BSVUSDT",
+        "base_currency": "BSV",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "250",
+          "min_trading_qty": "0.01",
+          "qty_step": "0.01"
+        },
+        "maker_fee": "-0.00025",
+        "name": "BSVUSDT",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 250.0,
+          "min": 0.01
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.01,
+        "price": 0.05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "BSV/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "BTC/USD": {
+      "active": true,
+      "base": "BTC",
+      "future": false,
+      "futures": false,
+      "id": "BTCUSD",
+      "info": {
+        "alias": "BTCUSD",
+        "base_currency": "BTC",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "100",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1000000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "BTCUSD",
+        "price_filter": {
+          "max_price": "999999",
+          "min_price": "0.5",
+          "tick_size": "0.5"
+        },
+        "price_scale": "2",
+        "quote_currency": "USD",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": true,
+      "limits": {
+        "amount": {
+          "max": 1000000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 100.0
+        },
+        "price": {
+          "max": 999999.0,
+          "min": 0.5
+        }
+      },
+      "linear": false,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.5
+      },
+      "quote": "USD",
+      "spot": false,
+      "swap": true,
+      "symbol": "BTC/USD",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "BTC/USDT": {
+      "active": true,
+      "base": "BTC",
+      "future": false,
+      "futures": false,
+      "id": "BTCUSDT",
+      "info": {
+        "alias": "BTCUSDT",
+        "base_currency": "BTC",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "100",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "100",
+          "min_trading_qty": "0.001",
+          "qty_step": "0.001"
+        },
+        "maker_fee": "-0.00025",
+        "name": "BTCUSDT",
+        "price_filter": {
+          "max_price": "999999",
+          "min_price": "0.5",
+          "tick_size": "0.5"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 100.0,
+          "min": 0.001
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 100.0
+        },
+        "price": {
+          "max": 999999.0,
+          "min": 0.5
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.001,
+        "price": 0.5
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "BTC/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "BTCUSDH22": {
+      "active": true,
+      "base": "BTC",
+      "future": true,
+      "futures": true,
+      "id": "BTCUSDH22",
+      "info": {
+        "alias": "BTCUSD0325",
+        "base_currency": "BTC",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "100",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1000000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "BTCUSDH22",
+        "price_filter": {
+          "max_price": "999999",
+          "min_price": "0.5",
+          "tick_size": "0.5"
+        },
+        "price_scale": "2",
+        "quote_currency": "USD",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": true,
+      "limits": {
+        "amount": {
+          "max": 1000000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 100.0
+        },
+        "price": {
+          "max": 999999.0,
+          "min": 0.5
+        }
+      },
+      "linear": false,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.5
+      },
+      "quote": "USD",
+      "spot": false,
+      "swap": false,
+      "symbol": "BTCUSDH22",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "future"
+    },
+    "BTCUSDM22": {
+      "active": true,
+      "base": "BTC",
+      "future": true,
+      "futures": true,
+      "id": "BTCUSDM22",
+      "info": {
+        "alias": "BTCUSD0624",
+        "base_currency": "BTC",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "100",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1000000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "BTCUSDM22",
+        "price_filter": {
+          "max_price": "999999",
+          "min_price": "0.5",
+          "tick_size": "0.5"
+        },
+        "price_scale": "2",
+        "quote_currency": "USD",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": true,
+      "limits": {
+        "amount": {
+          "max": 1000000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 100.0
+        },
+        "price": {
+          "max": 999999.0,
+          "min": 0.5
+        }
+      },
+      "linear": false,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.5
+      },
+      "quote": "USD",
+      "spot": false,
+      "swap": false,
+      "symbol": "BTCUSDM22",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "future"
+    },
+    "BTT/USDT": {
+      "active": true,
+      "base": "BTT",
+      "future": false,
+      "futures": false,
+      "id": "BTTUSDT",
+      "info": {
+        "alias": "BTTUSDT",
+        "base_currency": "BTT",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "12000000",
+          "min_trading_qty": "100",
+          "qty_step": "100"
+        },
+        "maker_fee": "-0.00025",
+        "name": "BTTUSDT",
+        "price_filter": {
+          "max_price": "1.999998",
+          "min_price": "0.000001",
+          "tick_size": "0.000001"
+        },
+        "price_scale": "6",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 12000000.0,
+          "min": 100.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 1.999998,
+          "min": 1e-06
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 100.0,
+        "price": 1e-06
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "BTT/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "C98/USDT": {
+      "active": true,
+      "base": "C98",
+      "future": false,
+      "futures": false,
+      "id": "C98USDT",
+      "info": {
+        "alias": "C98USDT",
+        "base_currency": "C98",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "12000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "C98USDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 12000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "C98/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "CELO/USDT": {
+      "active": true,
+      "base": "CELO",
+      "future": false,
+      "futures": false,
+      "id": "CELOUSDT",
+      "info": {
+        "alias": "CELOUSDT",
+        "base_currency": "CELO",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "3500",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "CELOUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 3500.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "CELO/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "CELR/USDT": {
+      "active": true,
+      "base": "CELR",
+      "future": false,
+      "futures": false,
+      "id": "CELRUSDT",
+      "info": {
+        "alias": "CELRUSDT",
+        "base_currency": "CELR",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "500000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "CELRUSDT",
+        "price_filter": {
+          "max_price": "99.9999",
+          "min_price": "0.00005",
+          "tick_size": "0.00005"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 500000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99.9999,
+          "min": 5e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 5e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "CELR/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "CHR/USDT": {
+      "active": true,
+      "base": "CHR",
+      "future": false,
+      "futures": false,
+      "id": "CHRUSDT",
+      "info": {
+        "alias": "CHRUSDT",
+        "base_currency": "CHR",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "36000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "CHRUSDT",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 36000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "CHR/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "CHZ/USDT": {
+      "active": true,
+      "base": "CHZ",
+      "future": false,
+      "futures": false,
+      "id": "CHZUSDT",
+      "info": {
+        "alias": "CHZUSDT",
+        "base_currency": "CHZ",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "300000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "CHZUSDT",
+        "price_filter": {
+          "max_price": "99.9999",
+          "min_price": "0.00005",
+          "tick_size": "0.00005"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 300000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99.9999,
+          "min": 5e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 5e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "CHZ/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "COMP/USDT": {
+      "active": true,
+      "base": "COMP",
+      "future": false,
+      "futures": false,
+      "id": "COMPUSDT",
+      "info": {
+        "alias": "COMPUSDT",
+        "base_currency": "COMP",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "100",
+          "min_trading_qty": "0.01",
+          "qty_step": "0.01"
+        },
+        "maker_fee": "-0.00025",
+        "name": "COMPUSDT",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 100.0,
+          "min": 0.01
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.01,
+        "price": 0.05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "COMP/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "COTI/USDT": {
+      "active": true,
+      "base": "COTI",
+      "future": false,
+      "futures": false,
+      "id": "COTIUSDT",
+      "info": {
+        "alias": "COTIUSDT",
+        "base_currency": "COTI",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "60000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "COTIUSDT",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 60000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.0001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "COTI/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "CREAM/USDT": {
+      "active": true,
+      "base": "CREAM",
+      "future": false,
+      "futures": false,
+      "id": "CREAMUSDT",
+      "info": {
+        "alias": "CREAMUSDT",
+        "base_currency": "CREAM",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "250",
+          "min_trading_qty": "0.01",
+          "qty_step": "0.01"
+        },
+        "maker_fee": "-0.00025",
+        "name": "CREAMUSDT",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 250.0,
+          "min": 0.01
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.01,
+        "price": 0.05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "CREAM/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "CRO/USDT": {
+      "active": true,
+      "base": "CRO",
+      "future": false,
+      "futures": false,
+      "id": "CROUSDT",
+      "info": {
+        "alias": "CROUSDT",
+        "base_currency": "CRO",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "70000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "CROUSDT",
+        "price_filter": {
+          "max_price": "99.9999",
+          "min_price": "0.00005",
+          "tick_size": "0.00005"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 70000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99.9999,
+          "min": 5e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 5e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "CRO/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "CRV/USDT": {
+      "active": true,
+      "base": "CRV",
+      "future": false,
+      "futures": false,
+      "id": "CRVUSDT",
+      "info": {
+        "alias": "CRVUSDT",
+        "base_currency": "CRV",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "30000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "CRVUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 30000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "CRV/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "CTK/USDT": {
+      "active": true,
+      "base": "CTK",
+      "future": false,
+      "futures": false,
+      "id": "CTKUSDT",
+      "info": {
+        "alias": "CTKUSDT",
+        "base_currency": "CTK",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "12000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "CTKUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 12000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "CTK/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "CVC/USDT": {
+      "active": true,
+      "base": "CVC",
+      "future": false,
+      "futures": false,
+      "id": "CVCUSDT",
+      "info": {
+        "alias": "CVCUSDT",
+        "base_currency": "CVC",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "70000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "CVCUSDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 70000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "CVC/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "DASH/USDT": {
+      "active": true,
+      "base": "DASH",
+      "future": false,
+      "futures": false,
+      "id": "DASHUSDT",
+      "info": {
+        "alias": "DASHUSDT",
+        "base_currency": "DASH",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "250",
+          "min_trading_qty": "0.01",
+          "qty_step": "0.01"
+        },
+        "maker_fee": "-0.00025",
+        "name": "DASHUSDT",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 250.0,
+          "min": 0.01
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.01,
+        "price": 0.05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "DASH/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "DENT/USDT": {
+      "active": true,
+      "base": "DENT",
+      "future": false,
+      "futures": false,
+      "id": "DENTUSDT",
+      "info": {
+        "alias": "DENTUSDT",
+        "base_currency": "DENT",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "10000000",
+          "min_trading_qty": "100",
+          "qty_step": "100"
+        },
+        "maker_fee": "-0.00025",
+        "name": "DENTUSDT",
+        "price_filter": {
+          "max_price": "1.999998",
+          "min_price": "0.000001",
+          "tick_size": "0.000001"
+        },
+        "price_scale": "6",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 10000000.0,
+          "min": 100.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 1.999998,
+          "min": 1e-06
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 100.0,
+        "price": 1e-06
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "DENT/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "DOGE/USDT": {
+      "active": true,
+      "base": "DOGE",
+      "future": false,
+      "futures": false,
+      "id": "DOGEUSDT",
+      "info": {
+        "alias": "DOGEUSDT",
+        "base_currency": "DOGE",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "200000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "DOGEUSDT",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 200000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.0001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "DOGE/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "DOT/USD": {
+      "active": true,
+      "base": "DOT",
+      "future": false,
+      "futures": false,
+      "id": "DOTUSD",
+      "info": {
+        "alias": "DOTUSD",
+        "base_currency": "DOT",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "500000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "DOTUSD",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USD",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": true,
+      "limits": {
+        "amount": {
+          "max": 500000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": false,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.005
+      },
+      "quote": "USD",
+      "spot": false,
+      "swap": true,
+      "symbol": "DOT/USD",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "DOT/USDT": {
+      "active": true,
+      "base": "DOT",
+      "future": false,
+      "futures": false,
+      "id": "DOTUSDT",
+      "info": {
+        "alias": "DOTUSDT",
+        "base_currency": "DOT",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "15000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "DOTUSDT",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 15000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "DOT/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "DUSK/USDT": {
+      "active": true,
+      "base": "DUSK",
+      "future": false,
+      "futures": false,
+      "id": "DUSKUSDT",
+      "info": {
+        "alias": "DUSKUSDT",
+        "base_currency": "DUSK",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "3000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "DUSKUSDT",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 3000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.0001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "DUSK/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "DYDX/USDT": {
+      "active": true,
+      "base": "DYDX",
+      "future": false,
+      "futures": false,
+      "id": "DYDXUSDT",
+      "info": {
+        "alias": "DYDXUSDT",
+        "base_currency": "DYDX",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "5000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "DYDXUSDT",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 5000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "DYDX/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "EGLD/USDT": {
+      "active": true,
+      "base": "EGLD",
+      "future": false,
+      "futures": false,
+      "id": "EGLDUSDT",
+      "info": {
+        "alias": "EGLDUSDT",
+        "base_currency": "EGLD",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "250",
+          "min_trading_qty": "0.01",
+          "qty_step": "0.01"
+        },
+        "maker_fee": "-0.00025",
+        "name": "EGLDUSDT",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 250.0,
+          "min": 0.01
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.01,
+        "price": 0.05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "EGLD/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ENJ/USDT": {
+      "active": true,
+      "base": "ENJ",
+      "future": false,
+      "futures": false,
+      "id": "ENJUSDT",
+      "info": {
+        "alias": "ENJUSDT",
+        "base_currency": "ENJ",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "40000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ENJUSDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 40000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "ENJ/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ENS/USDT": {
+      "active": true,
+      "base": "ENS",
+      "future": false,
+      "futures": false,
+      "id": "ENSUSDT",
+      "info": {
+        "alias": "ENSUSDT",
+        "base_currency": "ENS",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "600",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ENSUSDT",
+        "price_filter": {
+          "max_price": "19999.98",
+          "min_price": "0.01",
+          "tick_size": "0.01"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 600.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 19999.98,
+          "min": 0.01
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.01
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "ENS/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "EOS/USD": {
+      "active": true,
+      "base": "EOS",
+      "future": false,
+      "futures": false,
+      "id": "EOSUSD",
+      "info": {
+        "alias": "EOSUSD",
+        "base_currency": "EOS",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1000000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "EOSUSD",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USD",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": true,
+      "limits": {
+        "amount": {
+          "max": 1000000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": false,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.001
+      },
+      "quote": "USD",
+      "spot": false,
+      "swap": true,
+      "symbol": "EOS/USD",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "EOS/USDT": {
+      "active": true,
+      "base": "EOS",
+      "future": false,
+      "futures": false,
+      "id": "EOSUSDT",
+      "info": {
+        "alias": "EOSUSDT",
+        "base_currency": "EOS",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "50000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "EOSUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 50000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "EOS/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ETC/USDT": {
+      "active": true,
+      "base": "ETC",
+      "future": false,
+      "futures": false,
+      "id": "ETCUSDT",
+      "info": {
+        "alias": "ETCUSDT",
+        "base_currency": "ETC",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "2000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ETCUSDT",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 2000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "ETC/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ETH/USD": {
+      "active": true,
+      "base": "ETH",
+      "future": false,
+      "futures": false,
+      "id": "ETHUSD",
+      "info": {
+        "alias": "ETHUSD",
+        "base_currency": "ETH",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1000000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ETHUSD",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USD",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": true,
+      "limits": {
+        "amount": {
+          "max": 1000000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": false,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.05
+      },
+      "quote": "USD",
+      "spot": false,
+      "swap": true,
+      "symbol": "ETH/USD",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ETH/USDT": {
+      "active": true,
+      "base": "ETH",
+      "future": false,
+      "futures": false,
+      "id": "ETHUSDT",
+      "info": {
+        "alias": "ETHUSDT",
+        "base_currency": "ETH",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1000",
+          "min_trading_qty": "0.01",
+          "qty_step": "0.01"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ETHUSDT",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 1000.0,
+          "min": 0.01
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.01,
+        "price": 0.05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "ETH/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ETHUSDH22": {
+      "active": true,
+      "base": "ETH",
+      "future": true,
+      "futures": true,
+      "id": "ETHUSDH22",
+      "info": {
+        "alias": "ETHUSD0325",
+        "base_currency": "ETH",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1000000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ETHUSDH22",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USD",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": true,
+      "limits": {
+        "amount": {
+          "max": 1000000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": false,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.05
+      },
+      "quote": "USD",
+      "spot": false,
+      "swap": false,
+      "symbol": "ETHUSDH22",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "future"
+    },
+    "ETHUSDM22": {
+      "active": true,
+      "base": "ETH",
+      "future": true,
+      "futures": true,
+      "id": "ETHUSDM22",
+      "info": {
+        "alias": "ETHUSD0624",
+        "base_currency": "ETH",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1000000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ETHUSDM22",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USD",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": true,
+      "limits": {
+        "amount": {
+          "max": 1000000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": false,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.05
+      },
+      "quote": "USD",
+      "spot": false,
+      "swap": false,
+      "symbol": "ETHUSDM22",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "future"
+    },
+    "FIL/USDT": {
+      "active": true,
+      "base": "FIL",
+      "future": false,
+      "futures": false,
+      "id": "FILUSDT",
+      "info": {
+        "alias": "FILUSDT",
+        "base_currency": "FIL",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "2000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "FILUSDT",
+        "price_filter": {
+          "max_price": "19999.98",
+          "min_price": "0.01",
+          "tick_size": "0.01"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 2000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 19999.98,
+          "min": 0.01
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.01
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "FIL/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "FLOW/USDT": {
+      "active": true,
+      "base": "FLOW",
+      "future": false,
+      "futures": false,
+      "id": "FLOWUSDT",
+      "info": {
+        "alias": "FLOWUSDT",
+        "base_currency": "FLOW",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "2000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "FLOWUSDT",
+        "price_filter": {
+          "max_price": "19999.98",
+          "min_price": "0.01",
+          "tick_size": "0.01"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 2000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 19999.98,
+          "min": 0.01
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.01
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "FLOW/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "FTM/USDT": {
+      "active": true,
+      "base": "FTM",
+      "future": false,
+      "futures": false,
+      "id": "FTMUSDT",
+      "info": {
+        "alias": "FTMUSDT",
+        "base_currency": "FTM",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "80000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "FTMUSDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 80000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "FTM/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "FTT/USDT": {
+      "active": true,
+      "base": "FTT",
+      "future": false,
+      "futures": false,
+      "id": "FTTUSDT",
+      "info": {
+        "alias": "FTTUSDT",
+        "base_currency": "FTT",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "900",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "FTTUSDT",
+        "price_filter": {
+          "max_price": "19999.98",
+          "min_price": "0.01",
+          "tick_size": "0.01"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 900.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 19999.98,
+          "min": 0.01
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.01
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "FTT/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "GALA/USDT": {
+      "active": true,
+      "base": "GALA",
+      "future": false,
+      "futures": false,
+      "id": "GALAUSDT",
+      "info": {
+        "alias": "GALAUSDT",
+        "base_currency": "GALA",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "450000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "GALAUSDT",
+        "price_filter": {
+          "max_price": "19.99998",
+          "min_price": "0.00001",
+          "tick_size": "0.00001"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 450000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 19.99998,
+          "min": 1e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 1e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "GALA/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "GRT/USDT": {
+      "active": true,
+      "base": "GRT",
+      "future": false,
+      "futures": false,
+      "id": "GRTUSDT",
+      "info": {
+        "alias": "GRTUSDT",
+        "base_currency": "GRT",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "60000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "GRTUSDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 60000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "GRT/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "GTC/USDT": {
+      "active": true,
+      "base": "GTC",
+      "future": false,
+      "futures": false,
+      "id": "GTCUSDT",
+      "info": {
+        "alias": "GTCUSDT",
+        "base_currency": "GTC",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "GTCUSDT",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 1000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "GTC/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "HBAR/USDT": {
+      "active": true,
+      "base": "HBAR",
+      "future": false,
+      "futures": false,
+      "id": "HBARUSDT",
+      "info": {
+        "alias": "HBARUSDT",
+        "base_currency": "HBAR",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "200000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "HBARUSDT",
+        "price_filter": {
+          "max_price": "99.9999",
+          "min_price": "0.00005",
+          "tick_size": "0.00005"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 200000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99.9999,
+          "min": 5e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 5e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "HBAR/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ICP/USDT": {
+      "active": true,
+      "base": "ICP",
+      "future": false,
+      "futures": false,
+      "id": "ICPUSDT",
+      "info": {
+        "alias": "ICPUSDT",
+        "base_currency": "ICP",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "5000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ICPUSDT",
+        "price_filter": {
+          "max_price": "19999.98",
+          "min_price": "0.01",
+          "tick_size": "0.01"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 5000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 19999.98,
+          "min": 0.01
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.01
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "ICP/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ILV/USDT": {
+      "active": true,
+      "base": "ILV",
+      "future": false,
+      "futures": false,
+      "id": "ILVUSDT",
+      "info": {
+        "alias": "ILVUSDT",
+        "base_currency": "ILV",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "30",
+          "min_trading_qty": "0.01",
+          "qty_step": "0.01"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ILVUSDT",
+        "price_filter": {
+          "max_price": "199999.8",
+          "min_price": "0.1",
+          "tick_size": "0.1"
+        },
+        "price_scale": "1",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 30.0,
+          "min": 0.01
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 199999.8,
+          "min": 0.1
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.01,
+        "price": 0.1
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "ILV/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "IMX/USDT": {
+      "active": true,
+      "base": "IMX",
+      "future": false,
+      "futures": false,
+      "id": "IMXUSDT",
+      "info": {
+        "alias": "IMXUSDT",
+        "base_currency": "IMX",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "600",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "IMXUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 600.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "IMX/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "IOST/USDT": {
+      "active": true,
+      "base": "IOST",
+      "future": false,
+      "futures": false,
+      "id": "IOSTUSDT",
+      "info": {
+        "alias": "IOSTUSDT",
+        "base_currency": "IOST",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1000000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "IOSTUSDT",
+        "price_filter": {
+          "max_price": "19.99998",
+          "min_price": "0.00001",
+          "tick_size": "0.00001"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 1000000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 19.99998,
+          "min": 1e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 1e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "IOST/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "IOTA/USDT": {
+      "active": true,
+      "base": "IOTA",
+      "future": false,
+      "futures": false,
+      "id": "IOTAUSDT",
+      "info": {
+        "alias": "IOTAUSDT",
+        "base_currency": "IOTA",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "50000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "IOTAUSDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 50000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "IOTA/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "IOTX/USDT": {
+      "active": true,
+      "base": "IOTX",
+      "future": false,
+      "futures": false,
+      "id": "IOTXUSDT",
+      "info": {
+        "alias": "IOTXUSDT",
+        "base_currency": "IOTX",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "600000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "IOTXUSDT",
+        "price_filter": {
+          "max_price": "99.9999",
+          "min_price": "0.00005",
+          "tick_size": "0.00005"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 600000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99.9999,
+          "min": 5e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 5e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "IOTX/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "JASMY/USDT": {
+      "active": true,
+      "base": "JASMY",
+      "future": false,
+      "futures": false,
+      "id": "JASMYUSDT",
+      "info": {
+        "alias": "JASMYUSDT",
+        "base_currency": "JASMY",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "30000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "JASMYUSDT",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 30000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.0001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "JASMY/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "KAVA/USDT": {
+      "active": true,
+      "base": "KAVA",
+      "future": false,
+      "futures": false,
+      "id": "KAVAUSDT",
+      "info": {
+        "alias": "KAVAUSDT",
+        "base_currency": "KAVA",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1200",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "KAVAUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 1200.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "KAVA/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "KEEP/USDT": {
+      "active": true,
+      "base": "KEEP",
+      "future": false,
+      "futures": false,
+      "id": "KEEPUSDT",
+      "info": {
+        "alias": "KEEPUSDT",
+        "base_currency": "KEEP",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "75000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "KEEPUSDT",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 75000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.0001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "KEEP/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "KLAY/USDT": {
+      "active": true,
+      "base": "KLAY",
+      "future": false,
+      "futures": false,
+      "id": "KLAYUSDT",
+      "info": {
+        "alias": "KLAYUSDT",
+        "base_currency": "KLAY",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "8000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "KLAYUSDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 8000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "KLAY/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "KNC/USDT": {
+      "active": true,
+      "base": "KNC",
+      "future": false,
+      "futures": false,
+      "id": "KNCUSDT",
+      "info": {
+        "alias": "KNCUSDT",
+        "base_currency": "KNC",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "20000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "KNCUSDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 20000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "KNC/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "KSM/USDT": {
+      "active": true,
+      "base": "KSM",
+      "future": false,
+      "futures": false,
+      "id": "KSMUSDT",
+      "info": {
+        "alias": "KSMUSDT",
+        "base_currency": "KSM",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "200",
+          "min_trading_qty": "0.01",
+          "qty_step": "0.01"
+        },
+        "maker_fee": "-0.00025",
+        "name": "KSMUSDT",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 200.0,
+          "min": 0.01
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.01,
+        "price": 0.05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "KSM/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "LINK/USDT": {
+      "active": true,
+      "base": "LINK",
+      "future": false,
+      "futures": false,
+      "id": "LINKUSDT",
+      "info": {
+        "alias": "LINKUSDT",
+        "base_currency": "LINK",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "10000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "LINKUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 10000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "LINK/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "LIT/USDT": {
+      "active": true,
+      "base": "LIT",
+      "future": false,
+      "futures": false,
+      "id": "LITUSDT",
+      "info": {
+        "alias": "LITUSDT",
+        "base_currency": "LIT",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "400",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "LITUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 400.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "LIT/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "LPT/USDT": {
+      "active": true,
+      "base": "LPT",
+      "future": false,
+      "futures": false,
+      "id": "LPTUSDT",
+      "info": {
+        "alias": "LPTUSDT",
+        "base_currency": "LPT",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "LPTUSDT",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 1000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "LPT/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "LRC/USDT": {
+      "active": true,
+      "base": "LRC",
+      "future": false,
+      "futures": false,
+      "id": "LRCUSDT",
+      "info": {
+        "alias": "LRCUSDT",
+        "base_currency": "LRC",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "60000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "LRCUSDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 60000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "LRC/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "LTC/USDT": {
+      "active": true,
+      "base": "LTC",
+      "future": false,
+      "futures": false,
+      "id": "LTCUSDT",
+      "info": {
+        "alias": "LTCUSDT",
+        "base_currency": "LTC",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "2000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "LTCUSDT",
+        "price_filter": {
+          "max_price": "19999.98",
+          "min_price": "0.01",
+          "tick_size": "0.01"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 2000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 19999.98,
+          "min": 0.01
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.01
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "LTC/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "LUNA/USDT": {
+      "active": true,
+      "base": "LUNA",
+      "future": false,
+      "futures": false,
+      "id": "LUNAUSDT",
+      "info": {
+        "alias": "LUNAUSDT",
+        "base_currency": "LUNA",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "10000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "LUNAUSDT",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 10000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "LUNA/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "MANA/USDT": {
+      "active": true,
+      "base": "MANA",
+      "future": false,
+      "futures": false,
+      "id": "MANAUSDT",
+      "info": {
+        "alias": "MANAUSDT",
+        "base_currency": "MANA",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "20000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "MANAUSDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 20000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "MANA/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "MASK/USDT": {
+      "active": true,
+      "base": "MASK",
+      "future": false,
+      "futures": false,
+      "id": "MASKUSDT",
+      "info": {
+        "alias": "MASKUSDT",
+        "base_currency": "MASK",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "2000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "MASKUSDT",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 2000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "MASK/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "MATIC/USDT": {
+      "active": true,
+      "base": "MATIC",
+      "future": false,
+      "futures": false,
+      "id": "MATICUSDT",
+      "info": {
+        "alias": "MATICUSDT",
+        "base_currency": "MATIC",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "70000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "MATICUSDT",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 70000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.0001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "MATIC/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "NEAR/USDT": {
+      "active": true,
+      "base": "NEAR",
+      "future": false,
+      "futures": false,
+      "id": "NEARUSDT",
+      "info": {
+        "alias": "NEARUSDT",
+        "base_currency": "NEAR",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "10000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "NEARUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 10000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "NEAR/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "OMG/USDT": {
+      "active": true,
+      "base": "OMG",
+      "future": false,
+      "futures": false,
+      "id": "OMGUSDT",
+      "info": {
+        "alias": "OMGUSDT",
+        "base_currency": "OMG",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "8000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "OMGUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 8000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "OMG/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ONE/USDT": {
+      "active": true,
+      "base": "ONE",
+      "future": false,
+      "futures": false,
+      "id": "ONEUSDT",
+      "info": {
+        "alias": "ONEUSDT",
+        "base_currency": "ONE",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "400000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ONEUSDT",
+        "price_filter": {
+          "max_price": "99.9999",
+          "min_price": "0.00005",
+          "tick_size": "0.00005"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 400000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99.9999,
+          "min": 5e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 5e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "ONE/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "PEOPLE/USDT": {
+      "active": true,
+      "base": "PEOPLE",
+      "future": false,
+      "futures": false,
+      "id": "PEOPLEUSDT",
+      "info": {
+        "alias": "PEOPLEUSDT",
+        "base_currency": "PEOPLE",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "100000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "PEOPLEUSDT",
+        "price_filter": {
+          "max_price": "99.9999",
+          "min_price": "0.00005",
+          "tick_size": "0.00005"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 100000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 99.9999,
+          "min": 5e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 5e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "PEOPLE/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "QTUM/USDT": {
+      "active": true,
+      "base": "QTUM",
+      "future": false,
+      "futures": false,
+      "id": "QTUMUSDT",
+      "info": {
+        "alias": "QTUMUSDT",
+        "base_currency": "QTUM",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "6000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "QTUMUSDT",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 6000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "QTUM/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "REN/USDT": {
+      "active": true,
+      "base": "REN",
+      "future": false,
+      "futures": false,
+      "id": "RENUSDT",
+      "info": {
+        "alias": "RENUSDT",
+        "base_currency": "REN",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "50000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "RENUSDT",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 50000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "REN/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "REQ/USDT": {
+      "active": true,
+      "base": "REQ",
+      "future": false,
+      "futures": false,
+      "id": "REQUSDT",
+      "info": {
+        "alias": "REQUSDT",
+        "base_currency": "REQ",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "10000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "REQUSDT",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 10000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.0001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "REQ/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "RNDR/USDT": {
+      "active": true,
+      "base": "RNDR",
+      "future": false,
+      "futures": false,
+      "id": "RNDRUSDT",
+      "info": {
+        "alias": "RNDRUSDT",
+        "base_currency": "RNDR",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "2000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "RNDRUSDT",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 2000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "RNDR/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ROSE/USDT": {
+      "active": true,
+      "base": "ROSE",
+      "future": false,
+      "futures": false,
+      "id": "ROSEUSDT",
+      "info": {
+        "alias": "ROSEUSDT",
+        "base_currency": "ROSE",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "40000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ROSEUSDT",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 40000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.0001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "ROSE/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "RSR/USDT": {
+      "active": true,
+      "base": "RSR",
+      "future": false,
+      "futures": false,
+      "id": "RSRUSDT",
+      "info": {
+        "alias": "RSRUSDT",
+        "base_currency": "RSR",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "400000",
+          "min_trading_qty": "10",
+          "qty_step": "10"
+        },
+        "maker_fee": "-0.00025",
+        "name": "RSRUSDT",
+        "price_filter": {
+          "max_price": "99.9999",
+          "min_price": "0.00005",
+          "tick_size": "0.00005"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 400000.0,
+          "min": 10.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 99.9999,
+          "min": 5e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 10.0,
+        "price": 5e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "RSR/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "RUNE/USDT": {
+      "active": true,
+      "base": "RUNE",
+      "future": false,
+      "futures": false,
+      "id": "RUNEUSDT",
+      "info": {
+        "alias": "RUNEUSDT",
+        "base_currency": "RUNE",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "3000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "RUNEUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 3000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "RUNE/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "RVN/USDT": {
+      "active": true,
+      "base": "RVN",
+      "future": false,
+      "futures": false,
+      "id": "RVNUSDT",
+      "info": {
+        "alias": "RVNUSDT",
+        "base_currency": "RVN",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "80000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "RVNUSDT",
+        "price_filter": {
+          "max_price": "99.9999",
+          "min_price": "0.00005",
+          "tick_size": "0.00005"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 80000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 99.9999,
+          "min": 5e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 5e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "RVN/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "SAND/USDT": {
+      "active": true,
+      "base": "SAND",
+      "future": false,
+      "futures": false,
+      "id": "SANDUSDT",
+      "info": {
+        "alias": "SANDUSDT",
+        "base_currency": "SAND",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "90000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "SANDUSDT",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 90000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.0001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "SAND/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "SC/USDT": {
+      "active": true,
+      "base": "SC",
+      "future": false,
+      "futures": false,
+      "id": "SCUSDT",
+      "info": {
+        "alias": "SCUSDT",
+        "base_currency": "SC",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "140000",
+          "min_trading_qty": "10",
+          "qty_step": "10"
+        },
+        "maker_fee": "-0.00025",
+        "name": "SCUSDT",
+        "price_filter": {
+          "max_price": "19.99998",
+          "min_price": "0.00001",
+          "tick_size": "0.00001"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 140000.0,
+          "min": 10.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 19.99998,
+          "min": 1e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 10.0,
+        "price": 1e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "SC/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "SFP/USDT": {
+      "active": true,
+      "base": "SFP",
+      "future": false,
+      "futures": false,
+      "id": "SFPUSDT",
+      "info": {
+        "alias": "SFPUSDT",
+        "base_currency": "SFP",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "50000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "SFPUSDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 50000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "SFP/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "SHIB1000/USDT": {
+      "active": true,
+      "base": "SHIB1000",
+      "future": false,
+      "futures": false,
+      "id": "SHIB1000USDT",
+      "info": {
+        "alias": "SHIB1000USDT",
+        "base_currency": "SHIB1000",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "3000000",
+          "min_trading_qty": "10",
+          "qty_step": "10"
+        },
+        "maker_fee": "-0.00025",
+        "name": "SHIB1000USDT",
+        "price_filter": {
+          "max_price": "9.99999",
+          "min_price": "0.000005",
+          "tick_size": "0.000005"
+        },
+        "price_scale": "6",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 3000000.0,
+          "min": 10.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 9.99999,
+          "min": 5e-06
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 10.0,
+        "price": 5e-06
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "SHIB1000/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "SLP/USDT": {
+      "active": true,
+      "base": "SLP",
+      "future": false,
+      "futures": false,
+      "id": "SLPUSDT",
+      "info": {
+        "alias": "SLPUSDT",
+        "base_currency": "SLP",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "400000",
+          "min_trading_qty": "10",
+          "qty_step": "10"
+        },
+        "maker_fee": "-0.00025",
+        "name": "SLPUSDT",
+        "price_filter": {
+          "max_price": "19.99998",
+          "min_price": "0.00001",
+          "tick_size": "0.00001"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 400000.0,
+          "min": 10.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 19.99998,
+          "min": 1e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 10.0,
+        "price": 1e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "SLP/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "SNX/USDT": {
+      "active": true,
+      "base": "SNX",
+      "future": false,
+      "futures": false,
+      "id": "SNXUSDT",
+      "info": {
+        "alias": "SNXUSDT",
+        "base_currency": "SNX",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "2500",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "SNXUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 2500.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "SNX/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "SOL/USDT": {
+      "active": true,
+      "base": "SOL",
+      "future": false,
+      "futures": false,
+      "id": "SOLUSDT",
+      "info": {
+        "alias": "SOLUSDT",
+        "base_currency": "SOL",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "3000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "SOLUSDT",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 3000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "SOL/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "SPELL/USDT": {
+      "active": true,
+      "base": "SPELL",
+      "future": false,
+      "futures": false,
+      "id": "SPELLUSDT",
+      "info": {
+        "alias": "SPELLUSDT",
+        "base_currency": "SPELL",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1800000",
+          "min_trading_qty": "10",
+          "qty_step": "10"
+        },
+        "maker_fee": "-0.00025",
+        "name": "SPELLUSDT",
+        "price_filter": {
+          "max_price": "19.99998",
+          "min_price": "0.00001",
+          "tick_size": "0.00001"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 1800000.0,
+          "min": 10.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 19.99998,
+          "min": 1e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 10.0,
+        "price": 1e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "SPELL/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "SRM/USDT": {
+      "active": true,
+      "base": "SRM",
+      "future": false,
+      "futures": false,
+      "id": "SRMUSDT",
+      "info": {
+        "alias": "SRMUSDT",
+        "base_currency": "SRM",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "6000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "SRMUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 6000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "SRM/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "STORJ/USDT": {
+      "active": true,
+      "base": "STORJ",
+      "future": false,
+      "futures": false,
+      "id": "STORJUSDT",
+      "info": {
+        "alias": "STORJUSDT",
+        "base_currency": "STORJ",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "40000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "STORJUSDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 40000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "STORJ/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "STX/USDT": {
+      "active": true,
+      "base": "STX",
+      "future": false,
+      "futures": false,
+      "id": "STXUSDT",
+      "info": {
+        "alias": "STXUSDT",
+        "base_currency": "STX",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "5000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "STXUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 5000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "STX/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "SUSHI/USDT": {
+      "active": true,
+      "base": "SUSHI",
+      "future": false,
+      "futures": false,
+      "id": "SUSHIUSDT",
+      "info": {
+        "alias": "SUSHIUSDT",
+        "base_currency": "SUSHI",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "10000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "SUSHIUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 10000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "SUSHI/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "SXP/USDT": {
+      "active": true,
+      "base": "SXP",
+      "future": false,
+      "futures": false,
+      "id": "SXPUSDT",
+      "info": {
+        "alias": "SXPUSDT",
+        "base_currency": "SXP",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "24000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "SXPUSDT",
+        "price_filter": {
+          "max_price": "999.999",
+          "min_price": "0.0005",
+          "tick_size": "0.0005"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 24000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 999.999,
+          "min": 0.0005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "SXP/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "THETA/USDT": {
+      "active": true,
+      "base": "THETA",
+      "future": false,
+      "futures": false,
+      "id": "THETAUSDT",
+      "info": {
+        "alias": "THETAUSDT",
+        "base_currency": "THETA",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "15000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "THETAUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 15000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "THETA/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "TLM/USDT": {
+      "active": true,
+      "base": "TLM",
+      "future": false,
+      "futures": false,
+      "id": "TLMUSDT",
+      "info": {
+        "alias": "TLMUSDT",
+        "base_currency": "TLM",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "300000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "TLMUSDT",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 300000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.0001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "TLM/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "TRX/USDT": {
+      "active": true,
+      "base": "TRX",
+      "future": false,
+      "futures": false,
+      "id": "TRXUSDT",
+      "info": {
+        "alias": "TRXUSDT",
+        "base_currency": "TRX",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1000000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "TRXUSDT",
+        "price_filter": {
+          "max_price": "19.99998",
+          "min_price": "0.00001",
+          "tick_size": "0.00001"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 1000000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 19.99998,
+          "min": 1e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 1e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "TRX/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "UNI/USDT": {
+      "active": true,
+      "base": "UNI",
+      "future": false,
+      "futures": false,
+      "id": "UNIUSDT",
+      "info": {
+        "alias": "UNIUSDT",
+        "base_currency": "UNI",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "10000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "UNIUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 10000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "UNI/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "VET/USDT": {
+      "active": true,
+      "base": "VET",
+      "future": false,
+      "futures": false,
+      "id": "VETUSDT",
+      "info": {
+        "alias": "VETUSDT",
+        "base_currency": "VET",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1150000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "VETUSDT",
+        "price_filter": {
+          "max_price": "99.9999",
+          "min_price": "0.00005",
+          "tick_size": "0.00005"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 1150000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99.9999,
+          "min": 5e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 5e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "VET/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "WAVES/USDT": {
+      "active": true,
+      "base": "WAVES",
+      "future": false,
+      "futures": false,
+      "id": "WAVESUSDT",
+      "info": {
+        "alias": "WAVESUSDT",
+        "base_currency": "WAVES",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "600",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "WAVESUSDT",
+        "price_filter": {
+          "max_price": "9999.99",
+          "min_price": "0.005",
+          "tick_size": "0.005"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 600.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 9999.99,
+          "min": 0.005
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.005
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "WAVES/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "WOO/USDT": {
+      "active": true,
+      "base": "WOO",
+      "future": false,
+      "futures": false,
+      "id": "WOOUSDT",
+      "info": {
+        "alias": "WOOUSDT",
+        "base_currency": "WOO",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "10000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "WOOUSDT",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 10000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.0001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "WOO/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "XEM/USDT": {
+      "active": true,
+      "base": "XEM",
+      "future": false,
+      "futures": false,
+      "id": "XEMUSDT",
+      "info": {
+        "alias": "XEMUSDT",
+        "base_currency": "XEM",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "250000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "XEMUSDT",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 250000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.0001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "XEM/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "XLM/USDT": {
+      "active": true,
+      "base": "XLM",
+      "future": false,
+      "futures": false,
+      "id": "XLMUSDT",
+      "info": {
+        "alias": "XLMUSDT",
+        "base_currency": "XLM",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "350000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "XLMUSDT",
+        "price_filter": {
+          "max_price": "99.9999",
+          "min_price": "0.00005",
+          "tick_size": "0.00005"
+        },
+        "price_scale": "5",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 350000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99.9999,
+          "min": 5e-05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 5e-05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "XLM/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "XMR/USDT": {
+      "active": true,
+      "base": "XMR",
+      "future": false,
+      "futures": false,
+      "id": "XMRUSDT",
+      "info": {
+        "alias": "XMRUSDT",
+        "base_currency": "XMR",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "12",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "160",
+          "min_trading_qty": "0.01",
+          "qty_step": "0.01"
+        },
+        "maker_fee": "-0.00025",
+        "name": "XMRUSDT",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 160.0,
+          "min": 0.01
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 12.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.01,
+        "price": 0.05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "XMR/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "XRP/USD": {
+      "active": true,
+      "base": "XRP",
+      "future": false,
+      "futures": false,
+      "id": "XRPUSD",
+      "info": {
+        "alias": "XRPUSD",
+        "base_currency": "XRP",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1000000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "XRPUSD",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USD",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": true,
+      "limits": {
+        "amount": {
+          "max": 1000000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": false,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.0001
+      },
+      "quote": "USD",
+      "spot": false,
+      "swap": true,
+      "symbol": "XRP/USD",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "XRP/USDT": {
+      "active": true,
+      "base": "XRP",
+      "future": false,
+      "futures": false,
+      "id": "XRPUSDT",
+      "info": {
+        "alias": "XRPUSDT",
+        "base_currency": "XRP",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "50",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1000000",
+          "min_trading_qty": "1",
+          "qty_step": "1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "XRPUSDT",
+        "price_filter": {
+          "max_price": "199.9998",
+          "min_price": "0.0001",
+          "tick_size": "0.0001"
+        },
+        "price_scale": "4",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 1000000.0,
+          "min": 1.0
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 50.0
+        },
+        "price": {
+          "max": 199.9998,
+          "min": 0.0001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 1.0,
+        "price": 0.0001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "XRP/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "XTZ/USDT": {
+      "active": true,
+      "base": "XTZ",
+      "future": false,
+      "futures": false,
+      "id": "XTZUSDT",
+      "info": {
+        "alias": "XTZUSDT",
+        "base_currency": "XTZ",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "20000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "XTZUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 20000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "XTZ/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "YFI/USDT": {
+      "active": true,
+      "base": "YFI",
+      "future": false,
+      "futures": false,
+      "id": "YFIUSDT",
+      "info": {
+        "alias": "YFIUSDT",
+        "base_currency": "YFI",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "1",
+          "min_trading_qty": "0.0001",
+          "qty_step": "0.0001"
+        },
+        "maker_fee": "-0.00025",
+        "name": "YFIUSDT",
+        "price_filter": {
+          "max_price": "9999990",
+          "min_price": "5",
+          "tick_size": "5"
+        },
+        "price_scale": "0",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 1.0,
+          "min": 0.0001
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 9999990.0,
+          "min": 5.0
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.0001,
+        "price": 5.0
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "YFI/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "YGG/USDT": {
+      "active": true,
+      "base": "YGG",
+      "future": false,
+      "futures": false,
+      "id": "YGGUSDT",
+      "info": {
+        "alias": "YGGUSDT",
+        "base_currency": "YGG",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "3000",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "YGGUSDT",
+        "price_filter": {
+          "max_price": "1999.998",
+          "min_price": "0.001",
+          "tick_size": "0.001"
+        },
+        "price_scale": "3",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 3000.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 1999.998,
+          "min": 0.001
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.001
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "YGG/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ZEC/USDT": {
+      "active": true,
+      "base": "ZEC",
+      "future": false,
+      "futures": false,
+      "id": "ZECUSDT",
+      "info": {
+        "alias": "ZECUSDT",
+        "base_currency": "ZEC",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "400",
+          "min_trading_qty": "0.01",
+          "qty_step": "0.01"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ZECUSDT",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 400.0,
+          "min": 0.01
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.01,
+        "price": 0.05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "ZEC/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    },
+    "ZEN/USDT": {
+      "active": true,
+      "base": "ZEN",
+      "future": false,
+      "futures": false,
+      "id": "ZENUSDT",
+      "info": {
+        "alias": "ZENUSDT",
+        "base_currency": "ZEN",
+        "leverage_filter": {
+          "leverage_step": "0.01",
+          "max_leverage": "25",
+          "min_leverage": "1"
+        },
+        "lot_size_filter": {
+          "max_trading_qty": "500",
+          "min_trading_qty": "0.1",
+          "qty_step": "0.1"
+        },
+        "maker_fee": "-0.00025",
+        "name": "ZENUSDT",
+        "price_filter": {
+          "max_price": "99999.9",
+          "min_price": "0.05",
+          "tick_size": "0.05"
+        },
+        "price_scale": "2",
+        "quote_currency": "USDT",
+        "status": "Trading",
+        "taker_fee": "0.00075"
+      },
+      "inverse": false,
+      "limits": {
+        "amount": {
+          "max": 500.0,
+          "min": 0.1
+        },
+        "cost": {
+          "max": null,
+          "min": null
+        },
+        "leverage": {
+          "max": 25.0
+        },
+        "price": {
+          "max": 99999.9,
+          "min": 0.05
+        }
+      },
+      "linear": true,
+      "maker": -0.00025,
+      "option": false,
+      "percentage": true,
+      "precision": {
+        "amount": 0.1,
+        "price": 0.05
+      },
+      "quote": "USDT",
+      "spot": false,
+      "swap": true,
+      "symbol": "ZEN/USDT",
+      "taker": 0.00075,
+      "tierBased": false,
+      "type": "swap"
+    }
+  }
+]

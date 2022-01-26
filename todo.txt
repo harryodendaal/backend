@@ -1,0 +1,22 @@
+set evertything up for fastapi veryacademy tutorial
+
+That thing what ben awad did to cache things in docker
+
+study the code. for instance alembic, what is special about fastapi's async capabilities, .env.example aswell what is gitattributes?
+
+make shortcuts for commands
+
+Use serverless firebase functions to get data from server? and do the needed calculations
+make it so that only I can add exchanges and symbols
+
+
+alembic migrations:
+docker-compose run app alembic revision --autogenerate -m "newest migration"
+docker-compose run app alembic upgrade head 
+
+
+
+1 replace with aioscheduler : https://pypi.org/project/FastAPI-SQLAlchemy/ [X]
+2 setup api to get data [X]
+3 enable linting and set that up to make the codebase cleaner : https://www.youtube.com/results?search_query=how+to+setup+pylint
+4 rework the data function to be more robust []
