@@ -1,4 +1,4 @@
-import Models.models as models
+import models.models as models
 from logging.config import fileConfig
 
 from sqlalchemy import engine_from_config

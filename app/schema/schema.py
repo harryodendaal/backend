@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
 
-class MinuteBars(BaseModel):
+class SchemaMinuteBars(BaseModel):
     date: int  # will this be a problem 2038?
     open: float
     high: float
@@ -14,7 +14,7 @@ class MinuteBars(BaseModel):
         orm_mode = True
 
 
-class Symbol(BaseModel):
+class SchemaSymbol(BaseModel):
     name: str
     exchange_id: int
 
@@ -22,17 +22,17 @@ class Symbol(BaseModel):
         orm_mode = True
 
 
-class Exchange(BaseModel):
+class SchemaExchange(BaseModel):
     name: str
 
     class Config:
         orm_mode = True
 
 
-class UserIn(BaseModel):
+class SchemaUserIn(BaseModel):
     username: str
     password_hash: str
 
 
-class UserOut(BaseModel):
+class SchemaUserOut(BaseModel):
     username: str
